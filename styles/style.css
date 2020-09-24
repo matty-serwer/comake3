@@ -148,6 +148,10 @@ h3 {
     font-size: 3rem;
 }
 
+h4 {
+    font-size: 2.6rem;
+}
+
 .fas {
     font-size: 9rem;
     color: white;
@@ -156,12 +160,16 @@ h3 {
     border-radius: 20px;
 }
 
-.fas:hover{
+.fas:hover, .big-number:hover{
     background-color: #A4D260;
 }
 
 .co-make-logo {
     font-family: "Comfortaa", cursive;
+}
+
+.italics {
+    font-style: italic;
 }
 
 /* font-family: 'Merriweather', serif;
@@ -291,6 +299,17 @@ font-family: 'Open Sans', sans-serif; */
     line-height: 1.3;
 }
 
+.headline {
+    border-bottom: 4px solid white;
+    padding-bottom: 9%;
+    margin-bottom: 9%;
+    margin-top: 5%;
+}
+
+.sub-line {
+    margin-bottom: 7%;
+}
+
 #info .row {
     display: flex;
     flex-direction: row;
@@ -306,12 +325,17 @@ font-family: 'Open Sans', sans-serif; */
     width: 70%;
 }
 
-#info h3 {
-    margin-bottom: 5%;
+.ordered-row {
+    margin-bottom: 10%;
 }
 
-.text-block-right {
-
+.big-number {
+    font-family: "Comfortaa", cursive;
+    font-size: 9rem;
+    color: white;
+    padding: 1rem 3rem;
+    border: 5px solid white;
+    border-radius: 20px;
 }
 
 /* MEDIA QUERY FOR MOBILE */
