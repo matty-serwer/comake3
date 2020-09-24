@@ -1,0 +1,64 @@
+#landing {
+    /* margin: 62px 0 10vh; */
+    margin-bottom: 12vh
+    /* background: url("/assets/tom-rumble-7lvzopTxjOU-unsplash.jpg"); */
+}
+
+/* LANDING section begins here */
+
+
+/* TEAM GALLERY section begins here */
+
+#team-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.team-card {
+  width: 30%;
+  margin: 1.6%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 6%;
+}
+.team-card h2 {
+  /* font-family: "Oswald", sans-serif; */
+  font-size: 2rem;
+  padding: 1vh 0;
+}
+
+.team-card p {
+  font-size: 1.3rem;
+}
+
+.team-member-image img {
+  width: 100%;
+}
+
+/* TEAM-GALLERY ends here */
+
+/* MEDIA QUERY FOR TABLET */
+
+@media (max-width: 800px) {
+  .team-card {
+    width: 46%;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE */
+
+@media (max-width: 500px) {
+  #team-landing {
+    padding-top: 66px;
+  }
+  .team-card {
+    width: 90%;
+  }
+  #team-gallery {
+    justify-content: center;
+  }
+}
