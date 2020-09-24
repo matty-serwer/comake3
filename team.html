@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Lora:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/team.css">
+    <title>Co-Make</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="brand-title">Co-Make</div>
+        <a href="#" class="toggle-button" id="tog-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links" id="navb-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Team</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="landing">
+      <img src="/assets/houses.svg" alt="" />
+      <h1 class="co-make-logo">Co-Make</h1>
+      <h2>Meet the <span class="co-make-logo">Co-Make</span> Team!</h2>
+    </section>
+
+    <section id="team-gallery">
+        <div class="team-card">
+          <div class="team-member-image">
+            <a href="#"
+              ><img
+                src="/assets/taja_house.jpg"
+                alt="photo of Taja House"
+            /></a>
+          </div>
+          <h2>Taja House</h2>
+          <p>
+            Project Lead
+          </p>
+        </div>
+        <div class="team-card">
+          <div class="team-member-image">
+            <a href="#"
+              ><img
+                src="/assets/nelson_singleton.jpg"
+                alt="Photo of Nelson Singleton"
+            /></a>
+          </div>
+          <h2>Nelson Singleton</h2>
+          <p>
+            Senior Front End Developer
+          </p>
+        </div>
+        <div class="team-card">
+          <div class="team-member-image">
+            <a href="#"
+              ><img
+                src="/assets/rhea_manuel.jpg"
+                alt="Photo of Rhea Manuel"
+            /></a>
+          </div>
+          <h2>Rhea Manuel</h2>
+          <p>
+            Junior Front End Developer
+          </p>
+        </div>
+        <div class="team-card">
+          <div class="team-member-image">
+            <a href="#"
+              ><img
+                src="/assets/christian_bautista.png"
+                alt="Photo of Christian Bautista"
+            /></a>
+          </div>
+          <h2>Christian Bautista</h2>
+          <p>
+            Back End Developer (Java)
+          </p>
+        </div>
+        <div class="team-card">
+          <div class="team-member-image">
+            <a href="#"
+              ><img
+                src="/assets/sam_singer.png"
+                alt="Photo of Sam Singer"
+            /></a>
+          </div>
+          <h2>Sam Singer</h2>
+          <p>
+            Marketing
+          </p>
+        </div>
+        <div class="team-card">
+          <div class="team-member-image">
+            <a href="#"
+              ><img
+                src="/assets/julian_maxwell.jpg"
+                alt="Photo of Maxwel, J"
+            /></a>
+          </div>
+          <h2>Maxwell, J.</h2>
+          <p>
+            Marketing
+          </p>
+        </div>
+        <div class="team-card">
+          <div class="team-member-image">
+            <a href="#"
+              ><img
+                src="/assets/matthew_serwer.jpg"
+                alt="Photo of Matthew Serwer"
+            /></a>
+          </div>
+          <h2>Matthew Serwer</h2>
+          <p>
+            Marketing
+          </p>
+        </div>
+      <!-- #team-gallery ends here -->
+   
+    <!-- end of #list -->
+    <footer>
+      <div class="footer-block">
+        <div class="address">
+          <h4>Main Office</h4>
+          <p>1234 Sesame Street</p>
+          <p>San Ramon, CA 94582</p>
+          <p>1-555-555-1234</p>
+        </div>
+        <div class="site-map">
+          <h4>Site Map</h4>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="team.html">Team</a>
+        </div>
+        <div class="social-media">
+          <h4>Social Media</h4>
+          <div class="social-media-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">© Co-Make 2020. All Rights Reserved.</p>
+    </footer>
+
+   
+
+    <script>
+      const toggleButton = document.getElementsByClassName("toggle-button")[0];
+      const navbarLinks = document.getElementsByClassName("navbar-links")[0];
+      toggleButton.addEventListener("click", () => {
+      navbarLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
