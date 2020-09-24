@@ -189,7 +189,7 @@ font-family: 'Open Sans', sans-serif; */
 }
 
 .navbar-links li a:hover {
-  color: #ed4b8d;
+    color: #A4D260;
 }
 
 /* Toggle Menu */
@@ -214,23 +214,68 @@ font-family: 'Open Sans', sans-serif; */
 
 /* HERO-AMAGE STARTS HERE */
 
-#hero-image {
-  /* background: linear-gradient(130deg, rgba(197,14,203,1) 0%, rgba(71,241,255,1) 100%); */
-  padding: 40vh 0 200vh;
+#landing {
+  padding: 15vh 0 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
 }
 
-#hero-image h1 {
-  font-size: 10rem;
-  font-family: "Comfortaa", cursive;
+#landing img{
+    width: 25%;
+    color: white;
 }
 
-#hero-image h2 {
+#landing h1 {
+  font-size: 10rem;
+  font-family: "Comfortaa", cursive;
+  margin-top: 1%;
+}
+
+#landing h2 {
     font-family: 'Open Sans', sans-serif; 
     font-size: 2rem;
+    margin-top: 1%;
+}
+
+#landing .main-button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color: white;
+    border: 4px solid white;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    margin: 7% 0;
+}
+
+#landing .main-button:hover {
+    background-color: #A4D260;
+}
+
+/* INFO BEGINS HERE */
+
+#info {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin:0 auto 3%;
+    text-align: center;
+    width: 90%;
+}
+
+.text-block1 {
+    font-family: 'Open Sans', sans-serif;
+    
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.text-block2 {
+
 }
 
 /* MEDIA QUERY FOR MOBILE */
@@ -248,7 +293,7 @@ font-family: 'Open Sans', sans-serif; */
   .navbar {
     flex-direction: column;
     align-items: flex-start;
-    background-color: rgba(0, 43, 85);
+    background-color: rgba(0, 43, 85, 0);
   }
 
   .navbar-links ul {
