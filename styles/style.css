@@ -276,6 +276,12 @@ font-family: 'Open Sans', sans-serif;
   margin-top: 1%;
 }
 
+@keyframes buttonAni {
+    0% {background-color: transparent;}
+    30% {background-color: #a4d260;}
+    100% {background-color: transparent;}
+}
+
 #landing .main-button {
   font-family: "Open Sans", sans-serif;
   font-size: 2rem;
@@ -284,6 +290,8 @@ font-family: 'Open Sans', sans-serif;
   padding: 1.5rem 2rem;
   border-radius: 10px;
   margin: 7% 0;
+  animation-name: buttonAni;
+  animation-duration: 4s;
 }
 
 #landing .main-button:hover {
@@ -500,6 +508,7 @@ footer .copyright {
     padding: 30vh 0 30vh;
   }
 
+
   #landing h1 {
     font-size: 6rem;
   }
@@ -542,9 +551,6 @@ footer .copyright {
     flex-direction: column;
     align-items: space-around;
     margin-bottom: 15%;
-  }
-
-  #info .blerb-row {
   }
 
   #info .ordered-row-2 {
