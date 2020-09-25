@@ -1,16 +1,15 @@
 #landing {
-    padding: 10vh 0;
+    /* padding: 10vh 0; */
     background: url("/assets/photo-1531206715517-5c0ba140b2b8.jpeg");
     /* height: 80vh; */
     /* width: 100%; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
-    /* align-items: center; */
-    /* margin-bottom: 10%; */
+
+}
+#landing .container {
+    /* padding: 10vh 0; */
 }
 
 #about-info {
