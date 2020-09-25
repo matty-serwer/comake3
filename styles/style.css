@@ -125,6 +125,10 @@ table {
   border-spacing: 0;
 }
 
+/* Meyers Reset Ends Here */
+
+/* General Styles */
+
 * {
   box-sizing: border-box;
 }
@@ -175,8 +179,10 @@ h4 {
   font-style: italics;
 }
 
-/* font-family: 'Merriweather', serif;
-font-family: 'Open Sans', sans-serif; */
+/* 
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif; 
+*/
 
 /* GENERAL STYLES END HERE */
 
@@ -257,7 +263,6 @@ font-family: 'Open Sans', sans-serif; */
 
 #landing img {
   width: 25%;
-  /* color: white; */
 }
 
 #landing h1 {
@@ -306,8 +311,6 @@ font-family: 'Open Sans', sans-serif; */
 .headline {
   border-bottom: 4px solid white;
   padding-bottom: 9%;
-  /* margin-bottom: 9%;
-    margin-top: 5%; */
   margin: 5% auto 9%;
 }
 
@@ -497,14 +500,8 @@ footer .copyright {
     padding: 30vh 0 30vh;
   }
 
-  #landing img {
-  }
-
   #landing h1 {
     font-size: 6rem;
-  }
-
-  #landing h2 {
   }
 
   #landing .main-button {
