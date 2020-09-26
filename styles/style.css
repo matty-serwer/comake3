@@ -476,6 +476,7 @@ footer .copyright {
 /* MEDIA QUERY FOR MOBILE */
 
 @media (max-width: 500px) {
+
   /* For hamburger */
   .toggle-button {
     display: flex;
@@ -516,15 +517,13 @@ footer .copyright {
   }
 
   #landing {
-    padding: 30vh 0 30vh;
+    padding: 20vh 0 30vh;
   }
 
 
   #landing h1 {
     font-size: 4rem;
   }
-
- 
 
   #landing .main-button {
     font-size: 1.7rem;
